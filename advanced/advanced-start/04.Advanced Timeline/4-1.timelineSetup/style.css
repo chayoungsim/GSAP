@@ -1,0 +1,74 @@
+body{
+  background: black;
+}
+
+.stage{
+  width: 80vw;
+  height: 70vh;
+  background: #333;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  color: #fff;
+  font-size:2rem;
+
+}
+
+.stage > div{
+  width: 80px;
+  height: 80px;
+  background: dodgerblue;
+  border-radius: 10px;
+    display:flex;
+  justify-content:center;
+  align-items:center;
+ 
+}
+
+
+.nav{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5vh;
+}
+
+.nav > button{
+  cursor:pointer;
+}
+
+.nav > button:hover{
+  filter: invert(1);
+}
+
+
+
+.dotNav{
+  display: flex;
+  width: 80vw;
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  transform: translateX(-50%);
+  justify-content: space-evenly;
+
+}
+
+.dotNav > div{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: deeppink;
+  border:3px solid #fff;
+  cursor:pointer;
+}
+
+.dotNav > div:hover{
+  filter: invert(1);
+}
+    
+

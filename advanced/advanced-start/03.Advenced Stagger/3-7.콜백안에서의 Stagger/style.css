@@ -1,0 +1,80 @@
+body{
+  background: black;
+}
+
+.stage{
+  width: 500px;
+  height: 350px;
+  background: gray;
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); */
+  display:flex;
+  justify-content:space-between;
+  align-items:center
+
+}
+
+.stage > div{
+  width: 102px;
+  height: 88px;
+
+  background-size: cover;
+ 
+}
+
+.orange{
+  background: url(https://simseonbeom.github.io/Final/assets/tiger/orange.png);
+}
+
+.green{
+  background: url(https://simseonbeom.github.io/Final/assets/tiger/green.png);
+}
+.blue{
+  background: url(https://simseonbeom.github.io/Final/assets/tiger/blue.png);
+}
+
+.blue{
+  background: url(https://simseonbeom.github.io/Final/assets/tiger/blue.png);
+}
+
+
+.pink{
+  background: url(https://simseonbeom.github.io/Final/assets/tiger/pink.png);
+}
+
+
+.word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+  font-size:8rem;
+  font-weight: 700;
+  height: 100vh;
+}
+.word > div {
+   color: transparent;
+  -webkit-text-stroke: 1px green;
+  line-height: 1;
+}
+
+.demo {
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:left;
+	align-items:center;
+}
+
+.box {
+	height:50px;
+	width:50px;
+	min-width:50px;
+	min-height:50px;
+	background:green;
+	margin:2px;
+}

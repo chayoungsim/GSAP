@@ -1,0 +1,58 @@
+body{
+  background: black;
+}
+
+.stage{
+  width: 500px;
+  height: 350px;
+  background: gray;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display:flex;
+  justify-content:space-between;
+  align-items:center
+
+}
+.box{
+  background:green;
+  width: 30px;
+  height: 30px;
+}
+
+.stage > div{
+  width: 102px;
+  height: 88px;
+
+  background-size: cover;
+ 
+}
+
+.orange{
+  background: url(https://simseonbeom.github.io/Final/assets/tiger/orange.png);
+}
+
+.green{
+  background: url(https://simseonbeom.github.io/Final/assets/tiger/green.png);
+}
+.blue{
+  background: url(https://simseonbeom.github.io/Final/assets/tiger/blue.png);
+}
+
+.blue{
+  background: url(https://simseonbeom.github.io/Final/assets/tiger/blue.png);
+}
+
+
+.pink{
+  background: url(https://simseonbeom.github.io/Final/assets/tiger/pink.png);
+}
+
+.stages {
+  display: flex;
+  flex-wrap: wrap;
+  gap:0.5rem;
+  width: 30%;
+  margin:0 auto;
+}

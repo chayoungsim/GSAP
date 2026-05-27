@@ -1,0 +1,64 @@
+body{
+  background: black;
+}
+
+.stage{
+  width: 80vw;
+  height: 70vh;
+  background: #333;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  color: #fff;
+  font-size:2rem;
+  overflow:hidden;
+
+}
+
+.stage .box{
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+ 
+}
+
+
+.blue{
+  background:dodgerblue
+}
+.orange{
+  background:orange
+}
+.pink{
+  background:hotpink
+}
+
+
+.amongWrapper{
+  position: absolute;
+  left: 20%;
+  bottom:0;
+  display:flex;
+  align-items:center;
+}
+
+
+.among{
+  width: 80px;
+  margin-right:20px;
+}
+
+.among img{
+  width: 100%;
+}
+
+.quote{
+  white-space: nowrap
+}
